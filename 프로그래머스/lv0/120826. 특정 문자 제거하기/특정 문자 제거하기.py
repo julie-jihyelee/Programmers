@@ -1,6 +1,3 @@
 def solution(my_string, letter):
-    new = ""
-    for i in my_string :
-        if i != letter :
-            new += i
+    new = my_string.replace(letter, '')
     return new
